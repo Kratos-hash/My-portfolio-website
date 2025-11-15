@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d portfolio-website"
   },
   "repository": {
     "type": "git",
@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/Kratos-hash/My-portfolio-website/issues"
   },
-  "homepage": "https://github.com/Kratos-hash/My-portfolio-website"
+  "homepage": "https://github.com/Kratos-hash/My-portfolio-website",
+  "dependencies": {
+    "gh-pages": "^6.3.0"
+  }
 }
