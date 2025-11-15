@@ -2,9 +2,10 @@
   "name": "portfolio-website",
   "version": "1.0.0",
   "description": "",
-  "main": "script.js",
+  "main": "index.js",
   "scripts": {
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist",
+    "predeploy": "npm run build"
   },
   "repository": {
     "type": "git",
@@ -17,8 +18,5 @@
   "bugs": {
     "url": "https://github.com/Kratos-hash/My-portfolio-website/issues"
   },
-  "homepage": "https://github.com/Kratos-hash/My-portfolio-website#readme",
-  "dependencies": {
-    "gh-pages": "^6.3.0"
-  }
+  "homepage": "https://github.com/Kratos-hash/My-portfolio-website#readme"
 }
